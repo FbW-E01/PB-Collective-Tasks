@@ -164,11 +164,11 @@ function compareSums(a, b, c, d) {
 compareSums(3, 4, 2, 2);
 
 // Function #2
-// Code the function above as a arrow functions.
+// Code the function above as arrow functions.
 
-const sumOne = (a, b, c, d) => a + b;
-const sumTwo = (a, b, c, d) => c * d;
-const compareSumSums = (sumOne, sumTwo) => {
+newSums = (a, b, c, d) => {
+  const sumOne = a + b;
+  const sumTwo = c * d;
   if (sumOne > sumTwo) {
     console.log(a + " + " + b + " is larger than " + c + " * " + d);
   } else {
@@ -176,7 +176,7 @@ const compareSumSums = (sumOne, sumTwo) => {
   }
 };
 
-compareSumSums(2, 3, 2, 2);
+newSums(2, 3, 2, 2);
 
 //     - Solving problems with JavaScript (problems like we have had, such as counting sports scores or censoring words)
 
